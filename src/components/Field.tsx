@@ -9,7 +9,7 @@ export interface FieldProps {
 
 function FieldRoot({ children }: FieldProps) {
   return (
-    <div className="flex items-center gap-2 bg-black-700 rounded-lg px-4 py-2 w-full hover:bg-black-hover-700  focus-within:ring-2 ring-purple-900 ">
+    <div className="flex items-center gap-2 bg-black-700 rounded-lg px-4 py-2 w-full hover:bg-black-hover-700  focus-within:ring-2 ring-purple-900">
       {children}
     </div>
   );
