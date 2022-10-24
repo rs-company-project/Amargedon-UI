@@ -33,6 +33,9 @@ module.exports = {
       fontFamily: {
         sans: "Inter, sans-serif",
       },
+      width: {
+        102: 488
+      }
     },
   },
   plugins: [],

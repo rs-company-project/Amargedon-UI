@@ -67,7 +67,7 @@ export interface IIconBillingsProps {
 
 function IconBillings({ children }: IIconBillingsProps) {
   return (
-    <Slot className="w-9 h-9 text-white-500 hover:text-golden-100">
+    <Slot className="w-9 h-9 text-white-500 hover:text-black-hover-700">
       {children}
     </Slot>
   );
