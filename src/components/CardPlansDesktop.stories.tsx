@@ -1,16 +1,3 @@
-// import { Meta, StoryObj } from "@storybook/react";
-// import { CurrencyCircleDollar, FilePdf } from "phosphor-react";
-// import { ICardPlansDesktopProps } from "./CardPlansDesktop";
-// import { CardPlansDesktop } from "./CardPlansDesktop";
-// import { InfoStatus } from "./InfoStatus";
-
-// export default {
-//   title: "Components/CardPlansDesktop",
-//   component: CardPlansDesktop,
-// } as Meta<ICardPlansDesktopProps>;
-
-// export const Default: StoryObj<ICardPlansDesktopProps> = {};
-
 import { Meta, StoryObj } from "@storybook/react";
 import { CardPlansDesktop, ICardPlansDesktopProps } from "./CardPlansDesktop";
 import { Button } from "./Button";
