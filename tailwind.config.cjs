@@ -34,7 +34,8 @@ module.exports = {
         sans: "Inter, sans-serif",
       },
       width: {
-        102: 488
+        102: 488,
+        106: 584
       }
     },
   },
