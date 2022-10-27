@@ -8,6 +8,7 @@ export default {
   args: {
     children: "Hello World",
     size: "md",
+    weigth: "regular",
   },
   argTypes: {
     size: {
@@ -16,6 +17,12 @@ export default {
         type: "inline-radio",
       },
     },
+    weigth: {
+      options: ["light", "regular", "medium", "semi_bold"],
+      control: {
+        type: "inline-radio",
+      },
+    }
   },
 } as Meta<TextProps>;
 
