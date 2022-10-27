@@ -60,7 +60,7 @@ export interface IIconBillingsProps {
 
 function IconCardBilingsDesktop({ children }: IIconBillingsProps) {
   return (
-    <button className="w-9 h-9 text-white-500 hover:text-purple-900 focus-within:text-green-500">
+    <button className="w-9 h-9 text-white-500 hover:text-purple-900 focus:text-green-500">
       {children}
     </button>
   );
