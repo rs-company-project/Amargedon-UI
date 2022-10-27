@@ -32,4 +32,3 @@ export default {
 } as Meta<ICardBilingsDesktop>
 
 export const Default = {}
-// PLANO PLUS Venc 20 de nov de 2022 R$ 200,00
