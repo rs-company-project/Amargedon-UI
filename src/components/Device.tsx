@@ -17,8 +17,8 @@ export function Device({
   image
 }: IDeviceProps) {
   return (
-    <div className="flex flex-col gap-4 px-4 py-2 bg-black-700 w-80 rounded-lg">
-      <div className="flex items-center justify-between">
+    <button className="flex flex-col gap-4 px-4 py-2 bg-black-700 w-80 rounded-lg hover:bg-black-hover-700 focus:ring-2 ring-purple-900">
+      <div className="flex items-start justify-between w-full">
         <div className="flex items-center gap-2">
           <img
             className="w-9"
@@ -49,6 +49,6 @@ export function Device({
             }`}
         </p>
       </Text>
-    </div>
+    </button>
   );
 }
