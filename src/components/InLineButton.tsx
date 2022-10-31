@@ -9,7 +9,9 @@ function InlineButtonRoot({ children }: IInlineButtonRootProps) {
   return <div className="flex items-center">{children}</div>;
 }
 
-interface IInlineButtonButtonProps
+InlineButtonRoot.displayName = 'InlineButtonButton.Root';
+
+export interface IInlineButtonButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   position: "start" | "middle" | "end" | 'single';
@@ -21,7 +23,7 @@ function InlineButtonButton(props: IInlineButtonButtonProps) {
     <button
       {...props}
       className={clsx(
-        "bg-black-800 py-2 px-4 hover:bg-black-hover-700 focus:bg-purple-900 text-center w-24",
+        "bg-black-800 py-2 px-4 hover:bg-black-hover-700 focus:bg-purple-900 text-center w-24 uppercase",
         {
             'rounded-lg': position === 'single',
             'rounded-l-lg': position === 'start',
@@ -33,6 +35,8 @@ function InlineButtonButton(props: IInlineButtonButtonProps) {
     </button>
   );
 }
+
+InlineButtonButton.displayName = 'InlineButtonButton.Button';
 
 export const InlineButton = {
   Root: InlineButtonRoot,

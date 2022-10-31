@@ -1,18 +1,18 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { InlineButton, IInlineButtonRootProps } from "./InLineButton";
+import { InlineButton, IInlineButtonRootProps, IInlineButtonButtonProps } from "./InLineButton";
 import { Text } from "./Text";
 
 export default {
   title: "Components/InLineButton",
   component: InlineButton.Root,
   args: {
-    children: (
+    children: [
       <InlineButton.Button position="single">
         <Text size="lg">
-          <p className="uppercase">single</p>
+          <p>single</p>
         </Text>
       </InlineButton.Button>
-    ),
+    ],
   },
 } as Meta<IInlineButtonRootProps>;
 
@@ -27,42 +27,38 @@ export const Default = {
 };
 export const TwoButton: StoryObj<IInlineButtonRootProps> = {
   args: {
-    children: (
-      <>
+    children: [
         <InlineButton.Button position="start">
           <Text size="lg">
-            <p className="uppercase">first</p>
+            <p>first</p>
           </Text>
-        </InlineButton.Button>
+        </InlineButton.Button>,
         <InlineButton.Button position="end">
           <Text size="lg">
-            <p className="uppercase">end</p>
+            <p>end</p>
           </Text>
         </InlineButton.Button>
-      </>
-    ),
+    ],
   },
 };
 export const ThreeButton: StoryObj<IInlineButtonRootProps> = {
   args: {
-    children: (
-      <>
+    children: [
         <InlineButton.Button position="start">
           <Text size="lg">
-            <p className="uppercase">first</p>
+            <p>first</p>
           </Text>
-        </InlineButton.Button>
+        </InlineButton.Button>,
         <InlineButton.Button position="middle">
           <Text size="lg">
-            <p className="uppercase">middle</p>
+            <p>middle</p>
           </Text>
-        </InlineButton.Button>
+        </InlineButton.Button>,
         <InlineButton.Button position="end">
           <Text size="lg">
-            <p className="uppercase">end</p>
+            <p>end</p>
           </Text>
         </InlineButton.Button>
-      </>
-    ),
+    ],
   },
 };
