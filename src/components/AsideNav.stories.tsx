@@ -24,7 +24,7 @@ export default {
           <NavButton.Root
             inUsed
             label={
-              <HeadingText size="sm" weight="medium">
+              <HeadingText size="sm" weight="medium" asChild>
                 <p>DashBoard</p>
               </HeadingText>
             }
@@ -36,7 +36,7 @@ export default {
 
           <NavButton.Root
             label={
-              <HeadingText size="sm" weight="medium">
+              <HeadingText size="sm" weight="medium" asChild>
                 <p>Dispositivos</p>
               </HeadingText>
             }
@@ -48,7 +48,7 @@ export default {
 
           <NavButton.Root
             label={
-              <HeadingText size="sm" weight="medium">
+              <HeadingText size="sm" weight="medium" asChild>
                 <p>Faturas</p>
               </HeadingText>
             }
@@ -60,7 +60,7 @@ export default {
 
           <NavButton.Root
             label={
-              <HeadingText size="sm" weight="medium">
+              <HeadingText size="sm" weight="medium" asChild>
                 <p>Histórico</p>
               </HeadingText>
             }
@@ -72,7 +72,7 @@ export default {
 
           <NavButton.Root
             label={
-              <HeadingText size="sm" weight="medium">
+              <HeadingText size="sm" weight="medium" asChild>
                 <p>Perfil</p>
               </HeadingText>
             }
@@ -85,7 +85,7 @@ export default {
 
         <NavButton.Root
           label={
-            <HeadingText size="sm" weight="medium">
+            <HeadingText size="sm" weight="medium" asChild>
               <p>Sair</p>
             </HeadingText>
           }
