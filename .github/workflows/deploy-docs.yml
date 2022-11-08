@@ -19,7 +19,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: yarn run ci 
+        run: yarn install --frozen-lockfile
 
       - name: Build Storybook
         run: yarn run build-storybook
