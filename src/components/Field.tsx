@@ -1,6 +1,6 @@
 import "../styles/global.css";
 import { Slot } from "@radix-ui/react-slot";
-import { InputHTMLAttributes, ReactNode } from "react";
+import { InputHTMLAttributes, ReactNode, forwardRef, Ref } from "react";
 
 export interface FieldProps {
   children: ReactNode;
@@ -18,14 +18,14 @@ FieldRoot.displayName = "Field.Root"
 
 export interface IInputProps extends InputHTMLAttributes<HTMLInputElement> {}
 
-function FieldInput(props: IInputProps) {
+const FieldInput = forwardRef((props: IInputProps, ref: Ref<HTMLInputElement>) => {
   return (
     <input
       className="bg-transparent flex-1 outline-none text-white-500 placeholder:text-gray-400 leading-3 focus:text-white-500 focus:placeholder:text-white-500 securet"
       {...props}
     />
   );
-}
+})
 
 FieldInput.displayName = "Field.Input"
 
