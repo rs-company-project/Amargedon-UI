@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import {DashCard, IDashCardProps} from './DashCard'
+import {DashCard, IDashCardProps} from '../lib/components/DashCard'
 
 export default {
   title: 'Components/DashCard',

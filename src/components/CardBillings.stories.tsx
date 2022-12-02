@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { CurrencyCircleDollar, FilePdf } from "phosphor-react";
-import { ICardBillingsProps } from "./CardBillings";
-import { CardBillings } from "./CardBillings";
-import { InfoStatus } from "./InfoStatus";
+import { ICardBillingsProps } from "../lib/components/CardBillings";
+import { CardBillings } from "../lib/components/CardBillings";
+import { InfoStatus } from "../lib/components/InfoStatus";
 
 export default {
   title: "Components/CardBillings",

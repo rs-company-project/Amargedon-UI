@@ -1,39 +1,35 @@
+import "../../styles/global.css";
 import {
+  Phone,
   ArrowElbowLeft,
   ArrowUpRight,
-  CheckCircle,
   XCircle,
+  CheckCircle,
 } from "phosphor-react";
 import { Text } from "./Text";
 
-export interface ICardHistoricCallProps {
+export interface ICardDeviceHistoricProps {
   call: "answered" | "not-met";
   deviceName: string;
   status: "on" | "off";
-  image?: string;
+  image: string;
   time?: string;
   subtitle?: string;
-  date: string;
 }
 
-export function CardHistoricCall({
+export function CardDeviceHistoric({
   image,
-  call,
   deviceName,
-  status,
-  subtitle,
+  call,
   time,
-  date,
-}: ICardHistoricCallProps) {
+  subtitle,
+  status,
+}: ICardDeviceHistoricProps) {
   return (
-    <div className="flex items-center justify-between bg-black-700 py-2 px-4 w-104 rounded-lg hover:bg-black-hover-700">
+    <div className="flex items-center justify-between w-80 bg-black-700 rounded-lg py-2 px-4 hover:bg-black-hover-700">
       <div className="flex items-center gap-4">
         <div className="flex items-end justify-end">
-          <img
-            src={image}
-            alt="profile"
-            className="w-12 h-12 rounded-full bg-contain"
-          />
+          <img className="w-10 h-10" src={image} alt="brand" />
           {status === "on" ? (
             <CheckCircle
               size={12}
@@ -44,24 +40,24 @@ export function CardHistoricCall({
             <XCircle
               size={12}
               weight="fill"
-              className="absolute text-red-700 self-end"
+              className="absolute text-red-700"
             />
           )}
         </div>
-        <div>
-          <Text size="lg" weigth="regular">
-            <p>{deviceName}</p>
-          </Text>{" "}
+        <div className="flex flex-col gap-2">
+          <Text size="lg" weigth="regular" asChild={true}>
+            <p className="uppercase">{deviceName}</p>
+          </Text>
           <div className="flex gap-1 items-center">
             {call === "answered" ? (
               <ArrowUpRight
-                size={12}
+                size={15}
                 weight="bold"
                 className="text-green-500"
               />
             ) : (
               <ArrowElbowLeft
-                size={12}
+                size={15}
                 weight="bold"
                 className="text-red-700"
               />
@@ -69,7 +65,7 @@ export function CardHistoricCall({
 
             <Text size="md" weigth="regular" asChild={true}>
               {call === "answered" ? (
-                <p>{"Chamada atendida"}</p>
+                <p>{time}</p>
               ) : (
                 <p>{subtitle ?? "Chama não atendida"}</p>
               )}
@@ -77,15 +73,8 @@ export function CardHistoricCall({
           </div>
         </div>
       </div>
-      <div className="flex justify-end gap-20">
-        {call === "answered" && (
-          <Text size="lg" weigth="regular">
-            <p>{time}</p>
-          </Text>
-        )}
-        <Text size="lg" weigth="regular">
-          <p>{date ?? "Data não encontrada"}</p>
-        </Text>
+      <div className="flex items-center justify-center w-7 h-7 bg-purple-900 rounded-full text-white-500">
+        <Phone size={16} weight="regular" />
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ import {
   User,
   SignOut,
 } from "phosphor-react";
-import { AsideNavBarProps } from "./AsideNavBar";
-import { AsideNavBar } from "./AsideNavBar";
+import { AsideNavBarProps } from "../lib/components/AsideNavBar";
+import { AsideNavBar } from "../lib/components/AsideNavBar";
 
 export default {
   title: "Components/AsideNavBar",

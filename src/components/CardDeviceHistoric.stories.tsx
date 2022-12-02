@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { CardDeviceHistoric, ICardDeviceHistoricProps } from './CardDeviceHistoric'
+import { CardDeviceHistoric, ICardDeviceHistoricProps } from '../lib/components/CardDeviceHistoric'
 
 export default {
     title: 'Components/CardDeviceHistoric',

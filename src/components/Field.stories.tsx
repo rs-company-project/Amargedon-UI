@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import { User, EyeSlash } from "phosphor-react";
-import { FieldProps } from "./Field";
-import { Field } from "./Field";
-import { Button } from "./Button";
+import { FieldProps } from "../lib/components/Field";
+import { Field } from "../lib/components/Field";
+import { Button } from "../lib/components/Button";
 
 export default {
   title: "Components/Field",

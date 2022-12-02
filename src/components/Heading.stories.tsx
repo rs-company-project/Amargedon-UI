@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { HeadingTextProps } from "./HeadingText";
-import { HeadingText } from "./HeadingText";
+import { HeadingTextProps } from "../lib/components/HeadingText";
+import { HeadingText } from "../lib/components/HeadingText";
 
 export default {
   title: "Components/HeadingText",

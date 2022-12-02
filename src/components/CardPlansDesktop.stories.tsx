@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { CardPlansDesktop, ICardPlansDesktopProps } from "./CardPlansDesktop";
-import { Button } from "./Button";
+import { CardPlansDesktop, ICardPlansDesktopProps } from "../lib/components/CardPlansDesktop";
+import { Button } from "../lib/components/Button";
 
 export default {
   title: "Components/CardPlansDesktop",

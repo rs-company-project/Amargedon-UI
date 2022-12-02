@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import { User, EyeSlash } from "phosphor-react";
-import { IInfoStatusProps } from "./InfoStatus";
-import { InfoStatus } from "./InfoStatus";
-import { Button } from "./Button";
+import { IInfoStatusProps } from "../lib/components/InfoStatus";
+import { InfoStatus } from "../lib";
+import { Button } from "../lib"
 
 export default {
   title: "Components/InfoStatus",

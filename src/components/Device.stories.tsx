@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Device, IDeviceProps } from "./Device";
+import { Device, IDeviceProps } from "../lib/components/Device";
 
 export default {
   title: "Components/Device",

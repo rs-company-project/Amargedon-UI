@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../../styles/global.css";
 import { clsx } from "clsx";
 import { ButtonHTMLAttributes, ReactNode } from "react";
 import { Slot } from "@radix-ui/react-slot";

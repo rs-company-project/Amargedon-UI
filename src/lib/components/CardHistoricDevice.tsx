@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../../styles/global.css";
 import { clsx } from "clsx";
 import { Text } from "./Text";
 import { ButtonHTMLAttributes, ReactNode } from "react";

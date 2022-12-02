@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../../styles/global.css";
 import { ReactNode } from "react";
 
 export interface AsideNavProps {

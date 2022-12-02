@@ -1,5 +1,5 @@
+import "../../styles/global.css";
 import { Children, ReactNode } from "react";
-import "../styles/global.css";
 import { HeadingText } from "./HeadingText";
 import { Slot } from "@radix-ui/react-slot";
 import { Text } from "./Text";

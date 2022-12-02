@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import { CardHistoricCall, ICardHistoricCallProps } from "./CardHistoricCall";
+import { CardHistoricCall, ICardHistoricCallProps } from "../lib/components/CardHistoricCall";
 
 export default {
   title: "Components/CardHistoricCall",

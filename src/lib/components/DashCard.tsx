@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../../styles/global.css";
 import { Text } from "./Text";
 import { HeadingText } from "./HeadingText";
 

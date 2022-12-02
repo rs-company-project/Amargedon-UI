@@ -1,5 +1,5 @@
+import "../../styles/global.css";
 import { ReactNode } from "react";
-import "../styles/global.css";
 import { HeadingText } from "./HeadingText";
 import { Text } from "./Text";
 

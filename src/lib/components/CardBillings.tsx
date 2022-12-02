@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../../styles/global.css";
 import { useReducer } from "react";
 import { clsx } from "clsx";
 import { Text } from "./Text";

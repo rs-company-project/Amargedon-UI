@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import "../../styles/global.css";
 import { Slot } from "@radix-ui/react-slot";
 import { InputHTMLAttributes, ReactNode, forwardRef, Ref } from "react";
 

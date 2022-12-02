@@ -1,3 +1,4 @@
+import "../../styles/global.css";
 import clsx from "clsx";
 import { ButtonHTMLAttributes, ReactNode } from "react";
 
