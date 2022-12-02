@@ -45,4 +45,8 @@ module.exports = {
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  },
+  prefix: 'armagedon-ui'
 };
