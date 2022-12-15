@@ -23,6 +23,7 @@ const FieldInput = forwardRef((props: IInputProps, ref: Ref<HTMLInputElement>) =
     <input
       className="bg-transparent flex-1 outline-none text-white-500 placeholder:text-gray-400 leading-3 focus:text-white-500 focus:placeholder:text-white-500 securet"
       {...props}
+      ref={ref}
     />
   );
 })
