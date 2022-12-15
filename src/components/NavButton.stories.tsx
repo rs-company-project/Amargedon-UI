@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { NavButtonProps } from "./NavButton";
-import { NavButton } from "./NavButton";
+import { NavButtonProps } from "../lib/NavButton";
+import { NavButton } from "../lib/NavButton";
 import { Alarm } from "phosphor-react";
 
 export default {

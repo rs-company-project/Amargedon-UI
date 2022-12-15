@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { InlineButton, IInlineButtonRootProps, IInlineButtonButtonProps } from "./InLineButton";
-import { Text } from "./Text";
+import { InlineButton, IInlineButtonRootProps } from "../lib/InLineButton";
+import { Text } from "../lib/Text";
 
 export default {
   title: "Components/InLineButton",

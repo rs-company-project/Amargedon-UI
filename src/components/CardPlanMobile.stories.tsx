@@ -1,9 +1,9 @@
 import "../styles/global.css";
 import { Meta, StoryObj } from "@storybook/react";
-import { ICardPlanMobileProps } from "./CardPlanMobile";
-import { CardPlanMobile } from "./CardPlanMobile";
+import { ICardPlanMobileProps } from "../lib/CardPlanMobile";
+import { CardPlanMobile } from "../lib/CardPlanMobile";
 
-import { Field } from "./Field";
+import { Field } from "../lib/Field";
 import { MagnifyingGlass } from "phosphor-react";
 
 export default {

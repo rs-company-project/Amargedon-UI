@@ -1,9 +1,9 @@
 import "../styles/global.css";
 import { Meta, StoryObj } from "@storybook/react";
-import { ICardHistoricDeviceProps } from "./CardHistoricDevice";
-import { CardHistoricDevice } from "./CardHistoricDevice";
+import { ICardHistoricDeviceProps } from "../lib/CardHistoricDevice";
+import { CardHistoricDevice } from "../lib/CardHistoricDevice";
 import { PhoneOutgoing, PhoneX } from "phosphor-react";
-import { Text } from "./Text";
+import { Text } from "../lib/Text";
 
 
 export default {

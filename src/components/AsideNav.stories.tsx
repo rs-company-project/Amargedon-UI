@@ -7,10 +7,10 @@ import {
   User,
   SignOut,
 } from "phosphor-react";
-import { AsideNavProps } from "./AsideNav";
-import { AsideNav } from "./AsideNav";
-import { HeadingText } from "./HeadingText";
-import { NavButton } from "./NavButton";
+import { AsideNavProps } from "../lib/AsideNav";
+import { AsideNav } from "../lib/AsideNav";
+import { HeadingText } from "../lib/HeadingText";
+import { NavButton } from "../lib/NavButton";
 
 export default {
   title: "Components/AsideNav",

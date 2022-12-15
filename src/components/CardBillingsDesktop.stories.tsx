@@ -1,6 +1,6 @@
-import { Meta, StoryObj } from '@storybook/react'
-import { CardBilingsDesktop, ICardBilingsDesktop } from './CardBillingsDesktop'
-import { InfoStatus } from "./InfoStatus";
+import { Meta } from '@storybook/react'
+import { CardBilingsDesktop, ICardBilingsDesktop } from '../lib/CardBillingsDesktop'
+import { InfoStatus } from "../lib/InfoStatus";
 import { CurrencyCircleDollar, FilePdf } from "phosphor-react";
 
 export default {
