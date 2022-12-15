@@ -26,7 +26,7 @@ export function CardDeviceHistoric({
   status,
 }: ICardDeviceHistoricProps) {
   return (
-    <div className="flex items-center justify-between w-80 bg-black-700 rounded-lg py-2 px-4 hover:bg-black-hover-700">
+    <div className="flex items-center justify-between w-full bg-black-700 rounded-lg py-2 px-4 hover:bg-black-hover-700">
       <div className="flex items-center gap-4">
         <div className="flex items-end justify-end">
           <img className="w-10 h-10" src={image} alt="brand" />
@@ -67,7 +67,7 @@ export function CardDeviceHistoric({
               {call === "answered" ? (
                 <p>{time}</p>
               ) : (
-                <p>{subtitle ?? "Chama não atendida"}</p>
+                <p>{subtitle ?? "Chamada não atendida"}</p>
               )}
             </Text>
           </div>
