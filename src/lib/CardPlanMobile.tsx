@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import { Text } from "./Text";
+import { Text } from "../index";
 import { ButtonHTMLAttributes } from "react";
 
 export interface ICardPlanMobileProps

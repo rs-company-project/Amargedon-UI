@@ -1,6 +1,6 @@
 import "../styles/global.css";
 import { clsx } from "clsx";
-import { Text } from "./Text";
+import { Text } from "../index";
 
 export interface IInfoStatusProps {
   label: string;

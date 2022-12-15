@@ -1,8 +1,7 @@
 import "../styles/global.css";
 import { useReducer } from "react";
 import { clsx } from "clsx";
-import { Text } from "./Text";
-import { HeadingText } from "./HeadingText";
+import { HeadingText, Text } from "../index";
 import { ButtonHTMLAttributes, ReactNode } from "react";
 import { Slot } from "@radix-ui/react-slot";
 

@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import "../styles/global.css";
-import { HeadingText } from "./HeadingText";
-import { Text } from "./Text";
+import { Text, HeadingText } from "../index";
 
 export interface ICardPlansDesktopProps {
   children: ReactNode;

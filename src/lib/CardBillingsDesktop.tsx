@@ -1,8 +1,6 @@
-import { Children, ReactNode } from "react";
+import { ReactNode } from "react";
 import "../styles/global.css";
-import { HeadingText } from "./HeadingText";
-import { Slot } from "@radix-ui/react-slot";
-import { Text } from "./Text";
+import { HeadingText, Text } from "../index";
 
 export interface ICardBilingsDesktop {
   namePlan: string;

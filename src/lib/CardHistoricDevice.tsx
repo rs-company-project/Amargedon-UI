@@ -1,8 +1,7 @@
 import "../styles/global.css";
 import { clsx } from "clsx";
-import { Text } from "./Text";
+import { Text, InfoStatus } from "../index";
 import { ButtonHTMLAttributes, ReactNode } from "react";
-import { InfoStatus } from "./InfoStatus";
 import { Slot } from "@radix-ui/react-slot";
 
 export interface ICardHistoricDeviceProps

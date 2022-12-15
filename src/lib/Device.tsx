@@ -1,5 +1,4 @@
-import { HeadingText } from "./HeadingText";
-import { Text } from "./Text";
+import { Text, HeadingText } from "../index";
 
 export interface IDeviceProps {
   nameDevice: string;

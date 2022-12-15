@@ -4,7 +4,7 @@ import {
   CheckCircle,
   XCircle,
 } from "phosphor-react";
-import { Text } from "./Text";
+import { Text } from "../index";
 
 export interface ICardHistoricCallProps {
   call: "answered" | "not-met";

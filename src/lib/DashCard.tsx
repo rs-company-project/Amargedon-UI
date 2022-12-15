@@ -1,6 +1,5 @@
 import "../styles/global.css";
-import { Text } from "./Text";
-import { HeadingText } from "./HeadingText";
+import { HeadingText, Text } from "../index";
 
 export interface IDashCardProps {
   qtdCalls: number;
