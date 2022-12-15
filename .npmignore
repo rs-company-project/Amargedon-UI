@@ -1,5 +1,8 @@
 .github
 .storybook
-public
-index.html
 dist
+public
+src/components
+src/App.tsx
+src/main.tsx
+index.html
