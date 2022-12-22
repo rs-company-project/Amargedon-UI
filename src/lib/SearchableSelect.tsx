@@ -3,17 +3,26 @@ import { Slot } from "@radix-ui/react-slot";
 import { InputHTMLAttributes, ReactNode, forwardRef, Ref } from "react";
 import Select from 'react-select'
 
+type OptionsType = {
+  value: string | number, label: string
+}
 export interface SearchableSelectProps {
   placeholder: string | undefined,
   noOptionsMessage: string | undefined
-  options: { value: string | number, label: string }[]
+  options: OptionsType[],
+  onChange: (value: any) => any
 }
 
-export function SearchableSelect({ placeholder, noOptionsMessage, options }: SearchableSelectProps) {
+export function SearchableSelect({ placeholder, noOptionsMessage, options, onChange }: SearchableSelectProps) {
   return (
     <Select
       options={options}
       placeholder={placeholder}
+      onChange={(value) => {
+        if(typeof onChange === "function") {
+          onChange(value)
+        }
+      }}
       noOptionsMessage={() => {
         return noOptionsMessage;
       }}
@@ -52,8 +61,6 @@ export function SearchableSelect({ placeholder, noOptionsMessage, options }: Sea
           })
         },
         input: (baseStyles, state) => {
-          console.log(baseStyles, state, 'baseStyles');
-
           return ({
             ...baseStyles,
             color: "white"
