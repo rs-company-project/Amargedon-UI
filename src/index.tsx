@@ -16,3 +16,4 @@ export { InfoStatus } from "./lib/InfoStatus";
 export { InlineButton } from "./lib/InLineButton";
 export { NavButton } from "./lib/NavButton";
 export { Text } from "./lib/Text";
+export { SearchableSelect } from "./lib/SearchableSelect";
