@@ -10,8 +10,8 @@ export interface SearchableSelectProps {
   placeholder: string | undefined,
   noOptionsMessage: string | undefined
   options: OptionsType[],
-  defaultValue: any,
-  value: any,
+  defaultValue?: any,
+  value?: any,
   onChange: (value: any) => any
 }
 
