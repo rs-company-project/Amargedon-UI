@@ -10,14 +10,18 @@ export interface SearchableSelectProps {
   placeholder: string | undefined,
   noOptionsMessage: string | undefined
   options: OptionsType[],
+  defaultValue: any,
+  value: any,
   onChange: (value: any) => any
 }
 
-export function SearchableSelect({ placeholder, noOptionsMessage, options, onChange }: SearchableSelectProps) {
+export function SearchableSelect({ placeholder, noOptionsMessage, options, onChange, defaultValue, value }: SearchableSelectProps) {
   return (
     <Select
       options={options}
       placeholder={placeholder}
+      defaultValue={defaultValue}
+      value={value}
       onChange={(value) => {
         if(typeof onChange === "function") {
           onChange(value)
