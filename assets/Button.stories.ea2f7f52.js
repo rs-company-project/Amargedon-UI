@@ -1,0 +1,2 @@
+import{B as t}from"./Button.bf130e16.js";/* empty css               */import"./clsx.m.256e9345.js";import"./jsx-runtime.a69053b2.js";import"./index.132d91ce.js";import"./iframe.6fb111af.js";const m={title:"Components/Button",component:t,args:{children:"Ver mais"},argTypes:{size:{options:["md","lg"],control:{type:"inline-radio"}}}},a={},p={args:{size:"md"}},d={args:{size:"lg"}},l=["Default","Medium","Large"];export{a as Default,d as Large,p as Medium,l as __namedExportsOrder,m as default};
+//# sourceMappingURL=Button.stories.ea2f7f52.js.map
